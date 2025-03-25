@@ -95,21 +95,23 @@ Donec imperdiet sollicitudin risus vel placerat. Proin ultrices neque nec ligula
 Vestibulum non sapien ac elit dictum gravida ac sit amet augue. Sed nec elementum metus, nec tincidunt 
 arcu. Etiam varius elit ac tincidunt semper. Maecenas rutrum.
 
+
+<html>
+<head>
 <script src="https://unpkg.com/jquery-aniview/dist/jquery.aniview.js"></script>
 <script>
-        $(document).ready(function(){
-            $('.aniview-v3').AniView();
-            $('.aniview-v4').AniView({
-                animateClass: 'animate__animated'
-                animateThreshold: 100,
-                scrollPollInterval: 50
-            });
+    $(document).ready(function(){
+        $('.aniview-v3').AniView();
+        $('.aniview-v4').AniView({
+            animateClass: 'animate__animated'
         });
-    </script>
-
-<h1 class="aniview-v4" data-av-animation="animate__jackInTheBox">
-            This is my awesome animated element using v4!
-        </h1>
+    });
+   </script>
+</head>
+<body>
+<div class="aniview" data-av-animation="animate__jackInTheBox"><h1>Beetles</h1></div>
+</body>
+</html>
         
 Curabitur vestibulum, tellus et rutrum convallis, ante lectus sodales dui, in malesuada ante arcu vel 
 dolor. Sed ut mi eu lorem porttitor fringilla. Nunc quis nulla sed velit convallis rutrum. Proin gravida 
