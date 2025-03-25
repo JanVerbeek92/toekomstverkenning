@@ -22,4 +22,5 @@ arcu. Etiam varius elit ac tincidunt semper. Maecenas rutrum.
 <script src="https://unpkg.com/jquery-aniview/dist/jquery.aniview.js"></script>
 $('.aniview').AniView();
 
-<div class="aniview" data-av-animation="slideInRight"></div>
+<div class="aniview" data-av-animation="slideInRight">
+<img src="assets/images/readme.JPG" width="100"/></div>
