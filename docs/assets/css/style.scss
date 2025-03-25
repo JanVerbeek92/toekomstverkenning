@@ -1,0 +1,82 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+a, h1, h2, h3, h4, h5, h6 {
+  color:#ff6600;
+  margin:0 0 20px;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial; /* Use a simple sans-serif font */
+    background-color: #f9faf9; /* Light, almost white background */
+    color: #222 ; /*black color used in text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: scroll;
+    margin: 0px; padding: 0px; border: none; 
+}
+
+/* General styles for all images */
+img {
+  margin: 0px auto; /* Centers the images horizontally */
+}
+
+/* Style for logo */
+.logo-image {
+  max-width:100%;
+}
+
+/* Style for logo */
+.outer-left-full-height-image {
+  position: fixed;          /* Keeps the image fixed on the outer left */
+  left: 0;                  /* Aligns the image to the far left of the page */
+  top: 0;                   /* Starts the image at the top of the page */
+  height: 100vh;            /* Sets the image height to the full viewport height */
+  width: auto;              /* Maintains the image's aspect ratio */
+  max-width:5%;
+  object-fit: cover;        /* Ensures the image scales appropriately (optional) */
+  z-index: 1000;            /* Keeps the image above other content */
+}
+
+.wrapper {
+    width: 1080px;
+    margin-top: 150px;
+    height: 100vh;
+    
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}

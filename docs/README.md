@@ -19,7 +19,15 @@ Donec imperdiet sollicitudin risus vel placerat. Proin ultrices neque nec ligula
 Vestibulum non sapien ac elit dictum gravida ac sit amet augue. Sed nec elementum metus, nec tincidunt 
 arcu. Etiam varius elit ac tincidunt semper. Maecenas rutrum.
 
+<script src="js/josh.min.js">
  
-
+<div 
+class="element josh-js" 
+style="background: #ffe9c5; 
+color: #000" 
+data-josh-anim-name="fadeInUp" 
+data-josh-anim-delay="200ms">
+    Or use your own CSS animation library.
+</div>
 
 
