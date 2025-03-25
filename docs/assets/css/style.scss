@@ -48,6 +48,14 @@ img {
     
 }
 
+.animate__fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  -webkit-animation-duration: 7s;
+
+  animation-duration: 7s;
+  animation-name: fadeInUp;
+}
+
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
@@ -61,6 +69,7 @@ img {
     transform: translate3d(0, 0, 0);
   }
 }
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -74,7 +83,4 @@ img {
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-}
+
