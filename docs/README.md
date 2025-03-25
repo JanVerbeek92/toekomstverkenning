@@ -19,7 +19,10 @@ Donec imperdiet sollicitudin risus vel placerat. Proin ultrices neque nec ligula
 Vestibulum non sapien ac elit dictum gravida ac sit amet augue. Sed nec elementum metus, nec tincidunt 
 arcu. Etiam varius elit ac tincidunt semper. Maecenas rutrum.
 
-<link href="assets/style.scss" rel="stylesheet" type="assets/style.scss" />
+```{r, echo = FALSE}
+aniview::use_aniview()
+```
 
-<h1>HELLO?!</h1>
-
+::: {.aniview data-av-animation="slideInUp"}
+This element will be animated.
+:::
