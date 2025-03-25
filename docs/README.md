@@ -19,10 +19,7 @@ Donec imperdiet sollicitudin risus vel placerat. Proin ultrices neque nec ligula
 Vestibulum non sapien ac elit dictum gravida ac sit amet augue. Sed nec elementum metus, nec tincidunt 
 arcu. Etiam varius elit ac tincidunt semper. Maecenas rutrum.
 
-```{r, echo = FALSE}
-aniview::use_aniview()
-```
+<script src="https://unpkg.com/jquery-aniview/dist/jquery.aniview.js"></script>
+$('.aniview').AniView();
 
-::: {.aniview data-av-animation="slideInUp"}
-This element will be animated.
-:::
+<div class="aniview" data-av-animation="slideInRight"></div>
