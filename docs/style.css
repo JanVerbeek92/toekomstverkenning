@@ -1,0 +1,98 @@
+
+ /*------------- import google Raleway font ---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+
+/* NO TOC on mobile */
+@media screen and (max-width: 767px){
+
+  .col-xs-12.col-sm-4.col-md-3 {
+    display: none;
+  }
+  
+}
+
+/*------------- Whole Document---------------- */
+
+/* left KNVB banner*/
+
+  #left-gradient-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 100vh;
+  background: linear-gradient(to bottom, #FF6000, #E6F1EB);
+  z-index: 1000;
+}
+
+/* Keep content clear of the bar */
+h1 {
+  font-size: 48px;
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: Black;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+h3 {
+  font-size: 21px;
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: ExtraBold;
+}
+
+h4 {
+  font-size: 16px;
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+h5 {
+  font-size: 14px;
+  display: inline;
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: SemiBold;
+}
+
+body {
+  padding-left: 30px; /* slightly more than the bar width for space */
+  font-size: 14px;
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #F2F8F6;
+  line-height: 1.5;
+}
+
+
+/* TOC*/
+.tocify {
+  z-index: 2;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+  color: #black;
+  
+  border-color: #D5ECE6;
+}
